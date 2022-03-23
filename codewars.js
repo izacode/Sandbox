@@ -47,6 +47,46 @@
 
 
 
+//Parse nice int from char problem==================================================
+// function getAge(inputString){
+//     return Number(inputString[0])
+
+//    }
+
+
+// Beginner - Lost Without a Map====================================================
+// function maps(x){
+//     return x.map(y=>y*2)
+//   }
+
+// Will you make it?================================================================
+// const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+//     return ((mpg*fuelLeft)>=distanceToPump)
+//   };
+
+
+// Aspect Ratio Cropping - Part 1===================================================
+
+function aspectRatio(x,y){
+    return [Math.ceil(y*16/9), y];
+  }
+
+
+//   Century From Year =============================================================
+  function century(year) {
+
+    return Math.ceil(year/100);
+  }
+
+
+
+
+
+
+
+
+
+
 // function isOdd(num){
 
 
