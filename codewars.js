@@ -90,18 +90,7 @@ function swap(str){
 }
 
 
-// Password Hashes =====================================================
-
-function passHash(str) {
-  return require('crypto').createHash('md5').update(str).digest('hex')
-}
-
-//   Reverse words  =====================================================
-
-
-function reverseWords(str) {
-  return str.split(' ').map(w => w.split('').reverse().join('')).join(' ');
-}
+// ===================================
 
 
 
