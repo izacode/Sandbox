@@ -78,6 +78,19 @@ function aspectRatio(x,y){
     return Math.ceil(year/100);
   }
 
+// Case swapping====================================================================
+function swap(str){
+  if(!str){
+    return str
+}else {
+  const splitStr = str.split('')
+  const newSplitStr = splitStr.map(s => s===s.toUpperCase()?s.toLowerCase():s.toUpperCase())
+  return newSplitStr.join('')
+}
+}
+
+
+// ===================================
 
 
 
@@ -102,11 +115,11 @@ function aspectRatio(x,y){
 // console.log(result)
 
 
-const counts = {};
-const sampleArray = [1, 2,5,5 ,3, 3,3,6,6,6,6];
-sampleArray.forEach((x)=> { counts[x] = (counts[x] || 0) + 1; });
-console.log(counts)
+// const counts = {};
+// const sampleArray = [1, 2,5,5 ,3, 3,3,6,6,6,6];
+// sampleArray.forEach((x)=> { counts[x] = (counts[x] || 0) + 1; });
+// console.log(counts)
 
-const arrOfCounts = Object.values(counts).sort((a,b)=> a-b);
+// const arrOfCounts = Object.values(counts).sort((a,b)=> a-b);
 
-console.log(arrOfCounts)
+// console.log(arrOfCounts)

@@ -25,3 +25,8 @@ where continent like 'Afri_a'
 order by capital
 limit 3;
 --7) select price * amount as total from items
+--8)  SQL Basics: Simple GROUP BY
+select age,
+    count (age) as "people_count"
+from people
+group by age
